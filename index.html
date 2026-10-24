@@ -3,46 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevStart Mockup</title>
+    <title>UNITEN Campus Hub</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            max-width: 600px;
-            margin: auto;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-        }
-        h1 { color: #d97706; }
-        .timeline {
-            text-align: left;
-            margin-top: 20px;
-            background: #fffbeb;
-            padding: 15px;
-            border-left: 4px solid #f59e0b;
-        }
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f8fafc; color: #1e293b; margin: 0; padding: 20px; }
+        .card { background: white; max-width: 600px; margin: 20px auto; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1 { color: #2563eb; font-size: 24px; text-align: center; }
+        .section-title { font-weight: bold; border-bottom: 2px solid #e2e8f0; padding-bottom: 5px; margin-top: 20px; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #f1f5f9; margin: 8px 0; padding: 10px; border-radius: 6px; }
+        .btn { display: inline-block; background: #2563eb; color: white; padding: 10px 15px; border-radius: 6px; text-decoration: none; margin-top: 10px; }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Mini Hackathon!</h1>
-        <p><strong>RING RING</strong></p>
-        <p>Exciting</p>
+    <div class="card">
+        <h1>🎓 UNITEN Campus Hub</h1>
+        <p>Your one-stop dashboard for campus activities and study tools.</p>
 
-        <div class="timeline">
-            <h3>📌 Event Timeline</h3>
-            <p><strong>Phase 1: Launch & Learn (Briefing)</strong><br> 25 October 2026 | 8:00 PM – 9:30 PM (Online)</p>
-            <p><strong>Phase 2: The Build</strong><br> 25 October – 1 November 2026 (Online)</p>
-            <p><strong>Phase 3: The Grand Reveal (Final Pitching)</strong><br> 7 November 2026 | 8:00 AM – 1:00 PM <br><em>Venue: Advance Learning Room, IRC, Level 5</em></p>
-        </div>
+        <div class="section-title">📌 Upcoming Events</div>
+        <ul>
+            <li>🚀 <strong>DevStart 2026 Mini Hackathon</strong> — 25 Oct to 7 Nov</li>
+            <li>📚 <strong>Study Group Meetup</strong> — IRC Level 5, Advance Learning Room</li>
+        </ul>
+
+        <div class="section-title">🔗 Quick Links</div>
+        <ul>
+            <li><a href="https://moodle.uniten.edu.my" target="_blank">UNITEN Moodle</a></li>
+            <li><a href="https://library.uniten.edu.my" target="_blank">IRC Library Services</a></li>
+        </ul>
+
+        <div class="section-title">💡 Project Pitch</div>
+        <p>This portal helps students stay organized by combining event updates, library access, and team collaboration into a single dashboard.</p>
+        
+        <a href="#" class="btn">Explore Features</a>
     </div>
 
 </body>
